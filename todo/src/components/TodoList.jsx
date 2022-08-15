@@ -9,7 +9,7 @@ import TodoCompleted from './TodoCompleted';
 
 function TodoList() {
     let [todos, setTodos] = useState([
-        {id:1, completed: false, title: "Buy milk"},
+        {id: 1, completed: false, title: "Buy milk"},
         {id:2, completed: false, title: "Pay bills"},
         {id:3, completed: false, title: "Workout"},
     ])
