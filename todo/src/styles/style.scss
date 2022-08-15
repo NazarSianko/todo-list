@@ -51,6 +51,12 @@ body {
     .todo-list {
         padding:0px;
         margin:0px;
+        margin-bottom: 30px;
+    }
+    .todo-completed {
+        & h1 {
+            text-align: center;
+        }
     }
 }
 .done  {
